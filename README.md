@@ -33,6 +33,6 @@
 | 4 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)| 단순 구현 | Level 1 |
 | 5 | [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)   | 단순 구현  | Level 2 |
 | 6 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 완전탐색  | Level 1 |
-| 7 | [타켓넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | Level 2 |
+| 7 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | Level 2 |
 
 ---
