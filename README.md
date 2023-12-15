@@ -24,12 +24,15 @@
 
 ---
 ## week1 (12.21)
-(첫주차라 아직 우선 4문제만 선정 및 난이도 테스트 / 이후부터는 인원 수 대로 문제를 선정 후 진행)
+(이번주는 난이도 테스트 / 풀 수 있는 곳 까지만 풀어보기 / 전부 다 안풀어도 됩니다)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
-| 1 | [겹치는 선분의 길이](https://school.programmers.co.kr/learn/courses/30/lessons/120876)   | 단순 구현  | Level 0 |
-| 2 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)| 단순 구현 | Level 1 |
-| 3 | [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)   | 단순 구현  | Level 2 |
-| 4 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 완전탐색  | Level 1 |
+| 1 | [치킨 쿠폰](https://school.programmers.co.kr/learn/courses/30/lessons/120884)   | 단순 구현  | Level 0 |
+| 2 | [문자열 밀기](https://school.programmers.co.kr/learn/courses/30/lessons/120921)   | 단순 구현  | Level 0 |
+| 3 | [겹치는 선분의 길이](https://school.programmers.co.kr/learn/courses/30/lessons/120876)   | 단순 구현  | Level 0 |
+| 4 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)| 단순 구현 | Level 1 |
+| 5 | [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)   | 단순 구현  | Level 2 |
+| 6 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 완전탐색  | Level 1 |
+| 7 | [타켓넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | Level 2 |
 
 ---
