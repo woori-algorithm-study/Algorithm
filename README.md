@@ -1,1 +1,35 @@
-# Algorithm
+# 📝Algorithm
+( for Coding Test ) </br>
+자바/Python 알고리즘 Study 🔥(2023. 12. 21~)
+
+| 1 | 2 | 3 | 4 | 5 |
+| :---:   | :---: | :---: | :---: | :---: |
+| [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
+
+## 1️⃣스터디 목적
+```
+기업 코딩테스트 대비
+- 처음에는 문제를 푸는 능력 키우기
+- 점차 문제만 푸는 것이 아니라 문제를 보고 어떤 알고리즘을 쓸것인지, 시간복잡도는 어떠한지 등에 대해서 발표를 할 수 있는 능력까지 키우는 것을 목표
+- 단순 구현 문제부터 점차적으로 여러 알고리즘 문제를 푸는 것으로 난이도를 점차 올리는 것이 목표
+```
+
+## 2️⃣스터디 진행 규칙
+- 일정: 매주 목요일 8시~ 대면 진행 (우선 12월 4주차만 목요일로 / 추후 다시 정하기)
+- CS 스터디 진행 - 주차별로 선정된 문제를 풀어오고 각장 1문제씩 맡아서 발표 (어떤 문제인지, 어떻게 풀었는지, 어떤 알고리즘을 썼다면 그 알고리즘에 대한 설명까지)
+
+
+#### [자바 코딩테스트 관련 팁](https://velog.io/@alstjdwo1601/Java-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B4%80%EB%A0%A8-%ED%8C%81#19-%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89--binarysearch%EC%9D%98-%EB%91%90%EA%B0%80%EC%A7%80-%EC%9C%A0%ED%98%95)
+#### [코딩 테스트 문제 유형](https://velog.io/@pppp0722/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AC%B8%EC%A0%9C-%EC%9C%A0%ED%98%95-%EC%A0%95%EB%A6%AC)
+
+---
+## week1 (12.21)
+(첫주차라 아직 우선 4문제만 선정 및 난이도 테스트 / 이후부터는 인원 수 대로 문제를 선정 후 진행)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [겹치는 선분의 길이](https://school.programmers.co.kr/learn/courses/30/lessons/120876)   | 단순 구현  | Level 0 |
+| 2 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990)| 단순 구현 | Level 1 |
+| 3 | [점프와 순간이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)   | 단순 구현  | Level 2 |
+| 4 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 완전탐색  | Level 1 |
+
+---
