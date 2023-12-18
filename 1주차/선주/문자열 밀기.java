@@ -18,3 +18,9 @@ class Solution {
     }
 }
 
+/*
+String	substring(int beginIndex) : Returns a string that is a substring of this string.
+String	substring(int beginIndex, int endIndex) : Returns a string that is a substring of this string.
+
+The endIndex includes itself in the returned interval.
+*/
