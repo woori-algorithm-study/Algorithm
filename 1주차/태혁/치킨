@@ -1,0 +1,17 @@
+class Solution {
+    public int solution(int chicken) {
+        int answer = 0;
+        int serviceChicken = 0;
+        int totalCoupon = 0;
+        int remainCoupon = 0;
+        
+        while(chicken >= 10){
+            serviceChicken = chicken / 10;
+            remainCoupon = chicken % 10;
+            totalCoupon = serviceChicken + remainCoupon;
+            answer += serviceChicken;
+            chicken = totalCoupon;
+        }
+        return answer;
+    }
+}
