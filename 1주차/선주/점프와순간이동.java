@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+class Solution {
     public int solution(int n) {
         int jump = 0;
         
