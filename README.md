@@ -36,3 +36,10 @@
 | 7 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | Level 2 |
 
 ---
+
+
+## week2 (12.27)
+(각자 한 문제씩 맡아서 풀어오고 설명하기 / 단순구현 3문제/ 알고리즘 2문제 )
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) | 단순 구현 | Level 1 |
