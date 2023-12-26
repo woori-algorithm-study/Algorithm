@@ -44,3 +44,4 @@
 | :---:   | :---: | :---: | :---: |
 | 1 | [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) | 단순 구현 | Level 1 |
 | 2 | [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808) | 단순 구현 | Level 1 |
+| 3 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | 단순 구현 | Level 1 |
