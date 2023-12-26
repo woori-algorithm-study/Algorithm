@@ -1,6 +1,6 @@
-# 📝Algorithm
+# 📝Algorithm (Team. kahlp)
 ( for Coding Test ) </br>
-자바/Python 알고리즘 Study 🔥(2023. 12. 21~)
+자바/JavaScript/Python 알고리즘 Study 🔥(2023. 12. 21~)
 
 | 1 | 2 | 3 | 4 | 5 |
 | :---:   | :---: | :---: | :---: | :---: |
