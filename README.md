@@ -47,3 +47,8 @@
 | 3 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | 단순 구현 | Level 1 |
 | 4 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | Level 2 |
 | 5 | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | DFS/BFS | Level 3|
+
+## week3 (1.3)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+|1|[제목]() |단순 구현|Level n|
