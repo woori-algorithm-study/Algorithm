@@ -51,4 +51,5 @@
 ## week3 (1.3)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
-|1|[피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |완전탐색|Level 2|
+| 1 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |완전탐색|Level 2|
+| 2 | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) | 단순 구현 | Level 2 |
