@@ -53,3 +53,4 @@
 | :---:   | :---: | :---: | :---: |
 | 1 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |완전탐색|Level 2|
 | 2 | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) | 단순 구현 | Level 2 |
+| 3 | [방금 그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | 단순 구현 | Level 2 |
