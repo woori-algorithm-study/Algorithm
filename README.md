@@ -39,7 +39,7 @@
 
 
 ## week2 (12.27)
-(각자 한 문제씩 맡아서 풀어오고 설명하기 / 단순구현 3문제/ 알고리즘 2문제 )
+(각자 한 문제씩 맡아서 풀어오고 설명하기 / 단순구현 3문제 / 알고리즘 2문제 )
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) | 단순 구현 | Level 1 |
@@ -49,6 +49,7 @@
 | 5 | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | DFS/BFS | Level 3|
 
 ## week3 (1.3)
+(기술세미나 준비로 문항 수 줄임 / 단순구현 2문제 / 알고리즘 1문제 )
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |완전탐색|Level 2|
