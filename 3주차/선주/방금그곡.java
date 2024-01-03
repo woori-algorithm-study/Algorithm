@@ -1,16 +1,15 @@
 import java.util.ArrayList;
+
+
 class Solution {
-    public String solution(String m, String[] musicinfos) {
-        //네오가 기억한 멜로디와 악보에 사용되는 음
-        //String [] neo = {"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#","B"};
+    public String solution(String m, String[] musicinfos) {        
+        String answer = "";
+        //네오가 기억한 멜로디를 음계로 나누기 (Why? # 때문에 한 글자가 음계가 아님!!)
+        ArrayList <String>  neo_score = new ArrayList<>();
         
-        
-        //네오가 기억한 멜로디를 음계로 나누기 (# 때문에 한 글자가 음계가 아님!!)
-        int j = 0;
-        String[] neo = new String[m.length()];//length?? #개수만큼 적어야하는데... null null하당...
         for(String s : m.split("")){//String => String[]
-            if(s.equals("#")){neo[j-1] = (neo[j-1]+"#");} //#을 만나면 이전요소 값은 "이전요소+#"으로 변경
-            else neo[j++] = s;
+            if(s.equals("#")){neo_score.set(neo_score.size()-1, neo_score.get(neo_score.size()-1)+"#");} //#을 만나면 마지막 요소에 "#"을 붙여 변경
+            else neo_score.add(s);//알파벳은 무조건 넣음
         }
         
         
@@ -21,18 +20,25 @@ class Solution {
             String[] info = asong.split(",");
             songs[i++] = new Song(info[0], info[1], info[2], info[3]);
         }
+       
+        // contains()를 쓰기 위해서 songs[x].score 배열을 string으로 변환
+        String neo_str = String.join("", neo_score);
+        
         
         /**메인 로직**/
-        //1. neo가 포함되는 song 찾기
-        //2. 각 song을 재생시간 동안 반복해 돌면서 neo가 포함되는지 확인
-        for(int x = 0; i<songs.length; i++){
-            for(int y = 0; j<songs[x].playtime; j++){//음악은 항상 처음부터 재생,
-                //아! 너무 늦었어....! ㅜㅜ
-                //쉬는시간에도 못풀면 답 보고 마저 풀이할 예정..
-            }
+         for(int x = 0; x<songs.length; x++){ //x.length개 입력에 대해
+             String playing = "";//재생 시간동안의 음표들
+             //System.out.println(songs[x].playtime);
+             for(int y = 0; y<songs[x].playtime; y++){//음악은 항상 처음부터 재생
+                 playing += songs[x].score.get(y%songs[x].score.size());
+                 //조건이 일치하는 음악이 여러 개일 때에는 라디오에서 재생된 시간이 제일 긴 음악 제목을 반환한다.
+                 //재생된 시간도 같을 경우 먼저 입력된 음악 제목을 반환한다.
+                 if(playing.contains(neo_str)){answer =  songs[x].title;}
+         }
+
         }
-        String answer = "";
-        return answer;
+        //재생시간동안 모두 재생해도 neo가 기억하는 노래가 없음
+           return "(None)";
     }
     //Song 클래스 정의
     public class Song {
@@ -46,7 +52,7 @@ class Solution {
     String title;
     String score_str;
     //String [] score =  new String[this.score_str.length()];//"main" java.lang.NullPointerException
-    String [] score;
+    ArrayList <String> score = new ArrayList<>();
         
     Song(String st, String en, String ti, String sc){//나중에 필요없는 변수 수정
         this.start = st;
@@ -59,11 +65,10 @@ class Solution {
         this.title = ti;
         
         this.score_str = sc;
-        int j = 0;
-        score = new String[this.score_str.length()];
+           
         for(String s : sc.split("")){
-            if(s.equals("#")){this.score[j-1] = (this.score[j-1]+"#");}
-            else this.score[j++] = s;
+            if(s.equals("#")){score.set(score.size()-1, score.get(score.size()-1)+"#");}
+            else score.add(s);
         }
        
     }
