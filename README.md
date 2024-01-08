@@ -61,6 +61,6 @@
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) | 단순 구현 | Level 1 | 
-| 2 | [석유 시추]([https://school.programmers.co.kr/learn/courses/30/lessons/161989](https://school.programmers.co.kr/learn/courses/30/lessons/250136)https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
+| 2 | [석유 시추]((https://school.programmers.co.kr/learn/courses/30/lessons/250136)https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
 
 
