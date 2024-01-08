@@ -15,7 +15,6 @@ class Solution {
        
          for(int x = 0; x<songs.length; x++){
              String playing = "";
-
              for(int y = 0; y<songs[x].playtime; y++){
                  playing += songs[x].score.get(y%songs[x].score.size());
             }
@@ -24,8 +23,14 @@ class Solution {
             if(playing.contains(m)){
                 played.retainAll(neo_score);
                 if(played.containsAll(neo_score)){
-                    if(before_play_time < songs[x].playtime){before_play_time = songs[x].playtime;
-                        answer = songs[x].title;}
+                    if(before_play_time < songs[x].playtime){
+                        answer = songs[x].title;
+                    }
+                    if(before_play_time == songs[x].playtime){
+                        answer = songs[x-1].title;
+                         
+                    }before_play_time = songs[x].playtime;
+                   
                 }
             }
         }
@@ -58,12 +63,13 @@ class Solution {
             this.startH = Integer.parseInt(st.substring(0,2));
             this.startM = Integer.parseInt(st.substring(3,5));
             this.endH = Integer.parseInt(en.substring(0,2));
-            this.endM = Integer.parseInt(en.substring(3,5));    
-            this.playtime =(endM - startM) + (endH - startH)*60;
+            this.endM = Integer.parseInt(en.substring(3,5)); 
+
+            this.playtime = (endM - startM) + (endH - startH)*60;
+            
             this.title = ti;
             this.score = StrToList_score(sc);
         }
     }
     
 }
-
