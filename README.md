@@ -64,9 +64,10 @@
 | 2 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
 
 
-## week4 (1.17)
+## week5 (1.17)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712) | 2024 KAKAO WINTER INTERNSHIP
  | Level ? | 
 | 2 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
+| 3 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 완전 탐색 | Level 2 | 
