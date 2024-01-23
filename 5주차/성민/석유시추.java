@@ -3,31 +3,30 @@ class Solution {
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
     static int answer = 0;
+    static int idx = 2;
     static int cnt;
+    
     public int solution(int[][] land) {
         
         for (int i = 0; i < land[0].length; i++) { // 열
-            boolean[][] visited = new boolean[land.length][land[0].length];
+            idx++;
             for (int j = 0; j < land.length; j++) { // 행
-                if (land[j][i] == 1 && visited[j][i] == false) {
-                    // System.out.println("j " + j + " i " + i);
-                    bfs(land, visited, j, i);
+                if (land[j][i] < idx && land[j][i] > 0) {
+                    bfs(land, j, i, idx);
                     cnt++;
-                    // System.out.println("cnt " + cnt);
-                    // System.out.println(Arrays.deepToString(visited));
                 }
             }
+            
             answer = Math.max(answer, cnt);
-            // System.out.println("다음 열!");
             cnt = 0;
         }    
         return answer;
     }
     
-    public void bfs(int[][] land, boolean[][] visited, int v, int m) {
+    public void bfs(int[][] land, int v, int m, int idx) {
         Queue<Node> q = new LinkedList<>();
+        land[v][m] = idx;
         
-        visited[v][m] = true;
         q.offer(new Node(v, m));
         
         while (!q.isEmpty()) {
@@ -39,8 +38,8 @@ class Solution {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
                 if (nx >= 0 && ny >= 0 && nx < land.length && ny < land[0].length) {
-                    if (!visited[nx][ny] && land[nx][ny] == 1) {
-                        visited[nx][ny] = true;
+                    if (land[nx][ny] < idx && land[nx][ny] > 0) {
+                        land[nx][ny] = idx;
                         cnt++;
                         q.offer(new Node(nx, ny));
                     }
