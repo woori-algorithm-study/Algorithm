@@ -71,3 +71,9 @@
  | Level ? | 
 | 2 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
 | 3 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | Level 1 | 
+
+
+## week6 (1.31)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [안전지대](https://school.programmers.co.kr/learn/courses/30/lessons/120866) | 완전 탐색 | Level 0 |
