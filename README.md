@@ -77,3 +77,4 @@
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [안전지대](https://school.programmers.co.kr/learn/courses/30/lessons/120866) | 완전 탐색 | Level 0 |
+| 2 | [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913) | 완전 탐색 | Level 2 |
