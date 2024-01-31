@@ -84,6 +84,6 @@
 ## week7 (2.7)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
-| 1 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS, BFS | Silver I |
-| 2 | [미로 탐색](https://www.acmicpc.net/problem/2178) | DFS, BFS | Silver II |
+| 1 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS, BFS | Silver II |
+| 2 | [미로 탐색](https://www.acmicpc.net/problem/2178) | DFS, BFS | Silver I |
 | 3 | [바이러스](https://www.acmicpc.net/problem/2606) | DFS, BFS | Silver III |
