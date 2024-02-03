@@ -39,7 +39,7 @@ public class BOJ1260 {
         visited[v] = true;
 
         System.out.print(v + " ");
-        for (int i = 1; i <= N; i++) { // 열 만큼 반복
+        for (int i = 1; i <= N; i++) {
             if (arr[v][i] == 1 && !visited[i]) {
                 dfs(i);
             }
@@ -56,7 +56,7 @@ public class BOJ1260 {
 
             System.out.print(x + " ");
             for (int i = 1; i <= N; i++) {
-                if (arr[x][i] == 1 && !visited2[i]) {
+                if (arr[x][i] == 1 && !visited2[i]) { 
                     visited2[i] = true;
                     q.offer(i);
                 }
