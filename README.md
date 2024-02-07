@@ -1,3 +1,5 @@
+
+
 # 📝Algorithm (Team. kahlp)
 ( for Coding Test ) </br>
 자바/JavaScript/Python 알고리즘 Study 🔥(2023. 12. 21~)
@@ -5,6 +7,8 @@
 | 1 | 2 | 3 | 4 | 5 |
 | :---:   | :---: | :---: | :---: | :---: |
 | [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
+
+## [지금 풀고 있는 문제집 :](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
 
 ## 1️⃣스터디 목적
 ```
@@ -87,3 +91,10 @@
 | 1 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS, BFS | Silver II |
 | 2 | [미로 탐색](https://www.acmicpc.net/problem/2178) | DFS, BFS | Silver I |
 | 3 | [바이러스](https://www.acmicpc.net/problem/2606) | DFS, BFS | Silver III |
+
+## week8 (2.14)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [단지번호붙이기]([https://www.acmicpc.net/problem/1260](https://www.acmicpc.net/problem/2667) | DFS, BFS | Silver II |
+| 2 | []() | DFS, BFS | Silver I |
+| 3 | []() | DFS, BFS | Silver III |
