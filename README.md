@@ -8,7 +8,7 @@
 | :---:   | :---: | :---: | :---: | :---: |
 | [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
 
-## [지금 풀고 있는 문제집 :](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
+## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
 
 ## 1️⃣스터디 목적
 ```
