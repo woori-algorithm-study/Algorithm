@@ -95,6 +95,6 @@
 ## week8 (2.14)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
-| 1 | [단지번호붙이기]([https://www.acmicpc.net/problem/1260](https://www.acmicpc.net/problem/2667) | DFS, BFS | Silver II |
-| 2 | []() | DFS, BFS | Silver I |
-| 3 | []() | DFS, BFS | Silver III |
+| 1 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | DFS, BFS | Silver I |
+| 2 | [유기농 배추](https://www.acmicpc.net/problem/1012) | DFS, BFS | Silver II |
+| 3 | [토마토](https://www.acmicpc.net/problem/7576) | DFS, BFS | Gold V |
