@@ -27,7 +27,7 @@ public class BOJ1260 {
 
             arr[x][y] = arr[y][x] = 1; // 모든간선에 1대입하여 연결
         }
-        // System.out.println(Arrays.deepToString(arr));
+        System.out.println(Arrays.deepToString(arr));
 
         dfs(V);
         System.out.println();
@@ -65,3 +65,11 @@ public class BOJ1260 {
     }
     
 }
+
+
+// dfs bfs     24020   396
+
+// 미로 탐색	14776	136
+	
+// 바이 러스	14244	124
+//             14312    124
