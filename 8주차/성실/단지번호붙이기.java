@@ -1,59 +1,60 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     static int N;
     static int[][] map;
-    static boolean[][] visited;
-    static int[] dx = {0, 0, -1, 1}; // x좌표 상하좌우
-    static int[] dy = {-1, 1, 0, 0}; // y좌표 상하좌우
-    static int complex = 0; // 단지 수
-    static int home = 0; // 집 수
+    static int[] dx = {-1, 1, 0, 0};
+    static int[] dy = {0, 0, -1, 1};
+    static int count = 0; // 단지 내 집의 수
+    static List<Integer> home; // count 모아줄 리스트
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        N = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
         map = new int[N][N];
-        visited = new boolean[N][N];
+        home = new ArrayList<>();
 
         for(int i = 0; i < N; i++) {
-            String num = sc.next();
+            String[] str = br.readLine().split("");
             for(int j = 0; j < N; j++) {
-                map[i][j] = Integer.parseInt(""+num.charAt(j));
+                map[i][j] = Integer.parseInt(str[j]);
             }
         }
 
-        List<Integer> homeList = new ArrayList<>(); // 집 수 모아줄 리스트
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < N; j++) {
-                if(map[i][j] == 1 && !visited[i][j]) { // 값이 1이거나 아직 방문x
-                    dfs(i, j); // 상하좌우 확인
-                    complex++; // 한번 돌고 오면 단지 수 올려줌
-                    homeList.add(home);
-                    home = 0;
+                if(map[i][j] == 1) {
+                    check(i, j);
+                    home.add(count);
                 }
+                count = 0;
             }
         }
-
-        Collections.sort(homeList);
-
-        System.out.println(complex);
-        for(int i = 0; i < homeList.size(); i++) {
-            System.out.println(homeList.get(i));
+        Collections.sort(home);
+        
+        System.out.println(home.size());
+        for(int i = 0; i < home.size(); i++) {
+            System.out.println(home.get(i));
         }
-
     }
-
-
-    static void dfs(int x, int y) {
-        visited[x][y] = true; // 방문 표시
-        home++; // 집 수 더해줌
-
-        for (int i = 0; i < 4; i++) {
-            int nextX = x + dx[i];
-            int nextY = y + dy[i];
-            if (nextX >= 0 && nextX < N && nextY >= 0 && nextY < N) {
-                if (map[nextX][nextY] == 1 && !visited[nextX][nextY]) {
-                    dfs(nextX, nextY);
-                }
+    
+    static void check(int x, int y) {
+        count++;
+        map[x][y] = 0;
+        
+        for(int i = 0; i < 4; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            
+            if(nx >= 0 && nx < N && ny >= 0 && ny < N) {
+                if(map[nx][ny] == 1) check(nx, ny);
             }
         }
+        
     }
 }
