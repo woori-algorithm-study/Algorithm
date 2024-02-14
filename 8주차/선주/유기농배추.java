@@ -57,7 +57,7 @@ public class Main {
                 int ny = b.y+dy[i];
                 int nx = b.x+dx[i];
 
-                if(ny<0 || nx<0 || ny>=N || nx>=N){continue;} //배열 범위 바깥 처리
+                if(ny<0 || nx<0 || ny>=N || nx>=M){continue;} //배열 범위 바깥 처리
 
                 if(land[ny][nx] == 1){ // 배추 있고, 방문하지 않은 칸이면
                     Block bb = new Block(ny, nx);
