@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
+    //1012: 15960MB	164ms
     public static int T;
     public static int N;
     public static int M;
