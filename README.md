@@ -92,9 +92,18 @@
 | 2 | [미로 탐색](https://www.acmicpc.net/problem/2178) | DFS, BFS | Silver I |
 | 3 | [바이러스](https://www.acmicpc.net/problem/2606) | DFS, BFS | Silver III |
 
+
 ## week8 (2.14)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | DFS, BFS | Silver I |
 | 2 | [유기농 배추](https://www.acmicpc.net/problem/1012) | DFS, BFS | Silver II |
 | 3 | [토마토](https://www.acmicpc.net/problem/7576) | DFS, BFS | Gold V |
+
+
+## week9 (2.21)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | DFS, BFS | Silver I |
+| 2 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | DFS, BFS | Silver II |
+| 3 | [연구소](https://www.acmicpc.net/problem/14502) | DFS, BFS | Gold IV |
