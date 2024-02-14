@@ -7,13 +7,12 @@ public class Main {
 
     static int dx[] = {-1, 1, 0, 0};
     static int dy[] = {0, 0, -1, 1};
-    static int M; // 상자 가로 칸, j
+    static int M; // 상자 가로 칸, y
     static int N; // 상자 세로 칸, i
     static int[][] box;
     static int count = 0; // 입력할때 0이 있는지 없는지 확인하는 용도
-    static Queue<int[]> q = new LinkedList<>();
+    static Deque<int[]> q = new ArrayDeque<>();
     static int max = 0;
-
     static int result = 0;
 
     public static void main(String[] args) throws IOException {
@@ -28,7 +27,7 @@ public class Main {
             st = new StringTokenizer(br.readLine());
             for(int j = 0; j < M; j++) {
                 box[i][j] = Integer.parseInt(st.nextToken());
-                if(box[i][j] == 1) q.add(new int[]{i, j});
+                if(box[i][j] == 1) q.addLast(new int[]{i, j});
                 else if (box[i][j] == 0) count++;
             }
         }
@@ -64,7 +63,7 @@ public class Main {
     static void bfs() {
 
         while (!q.isEmpty()) {
-            int[] xy = q.poll();
+            int[] xy = q.pollFirst();
             int x = xy[0];
             int y = xy[1];
 
@@ -75,7 +74,7 @@ public class Main {
                 if(nx >= 0 && nx < N && ny >=0 && ny < M) {
                     if(box[nx][ny] == 0) {
                         box[nx][ny] = box[x][y] + 1; // 주변을 +1씩 해주기
-                        q.add(new int[]{nx, ny}); // 큐에 넣어주기
+                        q.addLast(new int[]{nx, ny}); // 큐에 넣어주기
 
                         max = Math.max(max, box[nx][ny]);
                     }
