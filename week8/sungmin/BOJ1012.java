@@ -1,5 +1,3 @@
-// 	15888KB	168ms
-
 package week8.sungmin;
 
 import java.io.*;
@@ -44,7 +42,7 @@ public class BOJ1012 {
 
     public static void bfs(int v, int m) {
         Deque<Node> q = new ArrayDeque<>();
-        q.offerFirst(new Node(v, m));
+        q.offerLast(new Node(v, m));
 
         while (!q.isEmpty()) {
             Node node = q.pollFirst();
@@ -58,7 +56,7 @@ public class BOJ1012 {
                 if (nx >= 0 && ny >= 0 && nx < M && ny < N) {
                     if (map[nx][ny] == 1) {
                         map[nx][ny] = 0;
-                        q.offerFirst(new Node(nx, ny));
+                        q.offerLast(new Node(nx, ny));
                     }
                 }
             }

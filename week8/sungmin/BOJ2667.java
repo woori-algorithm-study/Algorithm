@@ -1,4 +1,4 @@
-// 14388 KB	136 ms
+// 14388 KB	136 
 
 package week8.sungmin;
 
