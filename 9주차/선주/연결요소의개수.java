@@ -1,5 +1,6 @@
 /*
-visited가 전부 채워질때까지 정점 증가 시키면서 방문함수, return 되면 한개의 연결요소를 탐색한 것
+visited가 전부 채워질때까지 정점 증가 시키면서 방문함수, return 되면 한 개의 연결요소를 탐색한 것
+11724:	115776KB	528ms
 */
 
 import java.io.BufferedReader;
