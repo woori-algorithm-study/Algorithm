@@ -9,6 +9,7 @@
 | [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
 
 ## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
+## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/workbook/view/7836)
 
 ## 1️⃣스터디 목적
 ```
@@ -115,3 +116,10 @@
 | 1 | [연구소](https://www.acmicpc.net/problem/14502) | DFS, BFS | Gold IV |
 | 2 | [적록색약](https://www.acmicpc.net/problem/10026) | DFS, BFS | Gold V |
 | 3 | [토마토](https://www.acmicpc.net/problem/7569) | DFS, BFS | Gold V |
+
+## week10 (3.06)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [안전영역](https://www.acmicpc.net/problem/2468) | DFS, BFS | Silver I |
+| 2 | [섬의개수](https://www.acmicpc.net/problem/4963) | DFS, BFS | Silver II |
+| 3 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | DFS, BFS | Silver II |
