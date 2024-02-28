@@ -9,7 +9,8 @@
 | [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
 
 ## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
-## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/workbook/view/7836)
+## [지금 풀고 있는 문제집 : 백준 -[DP]] (https://www.acmicpc.net/workbook/view/7836)
+[https://www.acmicpc.net/workbook/view/7836](https://www.google.com/search?q=%EC%A2%8B%EC%9D%80+dp&sourceid=chrome&ie=UTF-8#:~:text=%EB%AC%B8%EC%A0%9C%EC%A7%91%3A%20%EC%A2%8B%EC%9D%80%20DP%EB%AC%B8%EC%A0%9C%EB%93%A4%20(khanjhy))
 
 ## 1️⃣스터디 목적
 ```
@@ -27,8 +28,14 @@
 #### [자바 코딩테스트 관련 팁](https://velog.io/@alstjdwo1601/Java-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B4%80%EB%A0%A8-%ED%8C%81#19-%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89--binarysearch%EC%9D%98-%EB%91%90%EA%B0%80%EC%A7%80-%EC%9C%A0%ED%98%95)
 #### [코딩 테스트 문제 유형](https://velog.io/@pppp0722/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AC%B8%EC%A0%9C-%EC%9C%A0%ED%98%95-%EC%A0%95%EB%A6%AC)
 
+
 ---
-## week1 (12.21)
+
+
+<details>
+ 
+ <summary>## week1 (12.21)</summary>
+
 (이번주는 난이도 테스트 / 풀 수 있는 곳 까지만 풀어보기 / 전부 다 안풀어도 됩니다)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
@@ -40,10 +47,12 @@
 | 6 | [모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) | 완전탐색  | Level 1 |
 | 7 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | DFS/BFS | Level 2 |
 
----
+</details>
 
 
-## week2 (12.27)
+<details>
+<summary>## week2 (12.27)</summary>
+ 
 (각자 한 문제씩 맡아서 풀어오고 설명하기 / 단순구현 3문제 / 알고리즘 2문제 )
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
@@ -52,70 +61,95 @@
 | 3 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | 단순 구현 | Level 1 |
 | 4 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐 | Level 2 |
 | 5 | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | DFS/BFS | Level 3|
+ 
+</details>
 
-## week3 (1.3)
+<details>
+<summary>## week3 (1.3)</summary>
+ 
 (기술세미나 준비로 문항 수 줄임 / 단순구현 2문제 / 알고리즘 1문제 )
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) |완전탐색|Level 2|
 | 2 | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539) | 단순 구현 | Level 2 |
 | 3 | [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) | 단순 구현 | Level 2 |
+</details>
 
-
-## week4 (1.10)
+<details>
+<summary>## week4 (1.10)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) | 단순 구현 | Level 1 | 
 | 2 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
+ 
+</details>
 
-
-## week5 (1.17)
+<details>
+<summary>## week5 (1.17)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712) | 2024 KAKAO WINTER INTERNSHIP
  | Level ? | 
 | 2 | [석유 시추](https://school.programmers.co.kr/learn/courses/30/lessons/250136) | 완전 탐색 | Level 2 | 
 | 3 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 해시 | Level 1 | 
+ 
+</details>
 
-
-## week6 (1.31)
+<details>
+<summary>## week6 (1.31)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [안전지대](https://school.programmers.co.kr/learn/courses/30/lessons/120866) | 완전 탐색 | Level 0 |
 | 2 | [땅따먹기](https://school.programmers.co.kr/learn/courses/30/lessons/12913) | dp | Level 2 |
 | 3 | [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) | 단순 구현 | Level 2 |
+ 
+</details>
 
-
-## week7 (2.7)
+<details>
+<summary>## week7 (2.7)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | DFS, BFS | Silver II |
 | 2 | [미로 탐색](https://www.acmicpc.net/problem/2178) | DFS, BFS | Silver I |
 | 3 | [바이러스](https://www.acmicpc.net/problem/2606) | DFS, BFS | Silver III |
+ 
+</details>
 
-
-## week8 (2.14)
+<details>
+<summary>## week8 (2.14)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | DFS, BFS | Silver I |
 | 2 | [유기농 배추](https://www.acmicpc.net/problem/1012) | DFS, BFS | Silver II |
 | 3 | [토마토](https://www.acmicpc.net/problem/7576) | DFS, BFS | Gold V |
+</details>
 
-
-## week9 (2.21)
+<details>
+<summary>## week9 (2.21)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [숨바꼭질](https://www.acmicpc.net/problem/1697) | DFS, BFS | Silver I |
 | 2 | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | DFS, BFS | Silver II |
 | 3 | [연구소](https://www.acmicpc.net/problem/14502) | DFS, BFS | Gold IV |
+ 
+</details>
 
-
-## week10 (2.28)
+<details>
+<summary>## week10 (2.28)</summary>
+ 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [연구소](https://www.acmicpc.net/problem/14502) | DFS, BFS | Gold IV |
 | 2 | [적록색약](https://www.acmicpc.net/problem/10026) | DFS, BFS | Gold V |
 | 3 | [토마토](https://www.acmicpc.net/problem/7569) | DFS, BFS | Gold V |
+ 
+</details>
 
 ## week10 (3.06)
 | No | Title    | Tag| Level |
