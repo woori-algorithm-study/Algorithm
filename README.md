@@ -155,6 +155,6 @@
 
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
-| 1 | [안전영역](https://www.acmicpc.net/problem/2468) | DFS, BFS | Silver I |
+| 1 | [안전영역](https://www.acmicpc.net/problem/2468)| DFS, BFS | Silver I |
 | 2 | [섬의개수](https://www.acmicpc.net/problem/4963) | DFS, BFS | Silver II |
 | 3 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | DFS, BFS | Silver II |
