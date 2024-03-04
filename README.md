@@ -151,7 +151,7 @@
  
 </details>
 
-## week10 (3.06)
+## week11 (3.06)
 | No | Title    | Tag| Level |
 | :---:   | :---: | :---: | :---: |
 | 1 | [안전영역](https://www.acmicpc.net/problem/2468) | DFS, BFS | Silver I |
