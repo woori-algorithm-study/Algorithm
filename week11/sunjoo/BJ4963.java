@@ -1,27 +1,16 @@
 /*
-5 4
-1 0 1 0 0
-1 0 0 0 0
-1 0 1 0 1
-1 0 0 1 0
+2 2
+0 1
+1 0
 
 -----------
-2 0 2 0 0 
-2 0 0 0 0 
-2 0 1 0 1 
-2 0 0 1 0 
+0 2 
+1 0 
 
-2 0 2 0 0 
-2 0 0 0 0 
-2 0 2 0 1 
-2 0 0 2 0 
+0 2 
+2 0 
 
-2 0 2 0 0 
-2 0 0 0 0 
-2 0 2 0 2 
-2 0 0 2 0 
-
-왜 이렇게 세 번 따로 bfs 호출돼서 탐색이 될까??
+왜 bfs가 대각선까지 탐색 안하고 종료?
 */
 package codingTest.src;
 
@@ -30,10 +19,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class BJ4963 {
+public class Main{
     private static int w;
     private static int h;
-    private static int[][] map;
+     static int[][] map;
     private static int[] dx = {0, 0, -1, 1, -1, 1, -1, 1}; //상하좌우
     private static int[] dy = {-1, 1, 0, 0, -1, -1, 1, 1}; // 좌상 우상 좌하 우하
 
@@ -63,9 +52,9 @@ public class BJ4963 {
                         bfs(i, j);
                         cnt++;
                         System.out.println();
-                        for (int a = 0; a< h; a++) {
-                            for (int b = 0; b < w; b++) {
-                                System.out.print(map[a][b] + " ");
+                        for (int k = 0; k < h; k++) {
+                            for (int l = 0; l < w; l++) {
+                                System.out.print(map[k][l] + " ");
                             }
                             System.out.println();
                         }
@@ -89,13 +78,14 @@ public class BJ4963 {
                 int ny = cy+dy[i];
                 if(ny<0 || nx<0 || ny>=h || nx >=w){continue;}
                 if(map[ny][nx] == 1){
+                    System.out.println("ny = " + ny);
+                    System.out.println("nx = " + nx);
                     map[ny][nx]++;
-                    q.addLast(y);
-                    q.addLast(x);
+                    q.addLast(ny);
+                    q.addLast(nx);
 
                 }
             }
         }
     }
 }
-
