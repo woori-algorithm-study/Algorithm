@@ -4,7 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.StringTokenizer;
 
 public class Main {
 	
@@ -23,7 +22,6 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
 		N = Integer.parseInt(br.readLine());
 		map = new int[N][N];
 		dq = new ArrayDeque<>();
@@ -55,7 +53,6 @@ public class Main {
 						}
 					}
 				}
-				
 				answer = Math.max(answer, count);
 			}
 		}
@@ -82,9 +79,9 @@ public class Main {
 					}
 				}	
 			}
-			
 		}
 	}
+	
 	
 	static void check(int x) {
 		// x 이하인 부분은 물에 잠긴다
