@@ -158,3 +158,12 @@
 | 1 | [안전영역](https://www.acmicpc.net/problem/2468)| DFS, BFS | Silver I |
 | 2 | [섬의개수](https://www.acmicpc.net/problem/4963) | DFS, BFS | Silver II |
 | 3 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | DFS, BFS | Silver II |
+| 4 | [1로 만들기](https://www.acmicpc.net/problem/1463) | | |
+
+
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [안전영역](https://www.acmicpc.net/problem/2468)| DFS, BFS | Silver I |
+| 2 | [섬의개수](https://www.acmicpc.net/problem/4963) | DFS, BFS | Silver II |
+| 3 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | DFS, BFS | Silver II |
+| 4 | [계단 오르기](https://www.acmicpc.net/problem/2579) | | |
