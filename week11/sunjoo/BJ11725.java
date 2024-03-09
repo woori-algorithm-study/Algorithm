@@ -4,56 +4,53 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class BJ11725 {
-    private static int N;
+    static int N;
+    static int[] parents;
+    static ArrayList<Integer> tree[];
+    static boolean[] visited;
+    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(bf.readLine());
+        N = Integer.parseInt(st.nextToken());
 
-        N = Integer.parseInt(st.nextToken()); //노드의 개수
+        parents = new int[N+1];
 
-        Map<Integer, Integer> map = new HashMap<>(); // 노드 : 부모노드
-        map.put(1, 1); //루트 노드
+        tree = new ArrayList[N+1];
+        for (int i = 1; i <= N; i++) {
+            tree[i] = new ArrayList<Integer>();
+        }
 
-        Deque<Integer> q = new ArrayDeque<>(); //미아 보호소
+        visited = new boolean[N+1];
 
-        for(int i = 0; i<N-1; i++){
-            st = new StringTokenizer(bf.readLine());
+        // set tree
+        for (int i = 1; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
+            tree[a].add(b);
+            tree[b].add(a);
+        }
+        parents[1] =1;
+        dfs(1);
 
-            if(map.getOrDefault(a, 0) != 0){ // a가 이미 있을 때
-                map.put(b, a); //b의 부모는 a
-            }else if(map.getOrDefault(b, 0) != 0) { //b가 이미 있을 때
-                map.put(a, b); //a의 부모는 b
+        for (int i = 2; i < N+1; i++) {
+            bw.append(parents[i] + "").append("\n");
+        }
 
-            }else{ //둘 다 없을 때 : 새로운 트리가 따로 똑 떨어져 작성됨
-                q.addLast(a);
-                q.addLast(b);
+        bw.flush();
+        bw.close();
+    }
+
+    public static void dfs(int x) throws Exception{
+
+        for (int i : tree[x]){
+            if (parents[i] == 0) {
+                parents[i] = x; // i의 부모는 x
+                dfs(i);
             }
         }
-
-        while (!q.isEmpty()){
-            int a = q.pollFirst();
-            int b = q.pollFirst();
-
-            if(map.getOrDefault(a, 0) != 0){ // a가 이미 있을 때
-                map.put(b, a); //b의 부모는 a
-            }else if(map.getOrDefault(b, 0) != 0) { //b가 이미 있을 때
-                map.put(a, b); //a의 부모는 b
-
-            }else{ //둘 다 없을 때 : 새로운 트리가 따로 똑 떨어져 작성됨
-                q.addLast(a);
-                q.addLast(b);
-            }
-        }
-
-        for(int i = 2; i<=N; i++){
-            System.out.println(map.get(i)); //각 노드의 부모 출력
-        }
-
-
-
     }
 }
