@@ -7,6 +7,7 @@ public class BOJ11725 {
    static ArrayList<Integer> link[];
    static int[] count;
    static int N, answer;
+   static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
    public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
@@ -30,15 +31,17 @@ public class BOJ11725 {
         dfs(1);
 
         for (int i = 2; i <= N; i++) {
-            System.out.println(count[i]);
+            bw.append(count[i]+"").append("\n");
         }
+
+        bw.flush();
+        bw.close();
     }
 
     public static void dfs(int v) {
         for (int i : link[v]) {
             if (count[i] == 0) {
                 count[i] = v;
-                System.out.println("i: " + i + " " + Arrays.toString(count));
                 dfs(i);
             }
         }
