@@ -26,7 +26,7 @@ public class BOJ11725 {
             link[y].add(x);
         }
 
-        System.out.println(Arrays.toString(link));
+        // System.out.println(Arrays.toString(link));
         count[1] = 1;
         dfs(1);
 
