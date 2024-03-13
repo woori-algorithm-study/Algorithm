@@ -178,4 +178,4 @@
 | :---:   | :---: | :---: | :---: |
 | 1 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | DFS, BFS | Gold III |
 | 2 | [계단 오르기](https://www.acmicpc.net/problem/2579) | DP | Silver III |
-| 3 | [???](https://www.acmicpc.net/problem/2579) | DFS, BFS | ??? |
+| 3 | [불!](https://www.acmicpc.net/problem/4179)| DFS, BFS | Gold IV |
