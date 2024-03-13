@@ -151,6 +151,7 @@
  
 </details>
 
+<details>
 <summary>## week11 (3.06)</summary>
 
 | No | Title    | Tag| Level |
@@ -159,7 +160,9 @@
 | 2 | [섬의개수](https://www.acmicpc.net/problem/4963) | DFS, BFS | Silver II |
 | 3 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | DFS, BFS | Silver II |
 | 4 | [1로 만들기](https://www.acmicpc.net/problem/1463) | DP | Silver III |
+</details>
 
+<details>
 <summary>## week12 (3.13)</summary>
 
 | No | Title    | Tag| Level |
@@ -168,7 +171,7 @@
 | 2 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | DFS, BFS | Gold III |
 | 3 | [영역 구하기](https://www.acmicpc.net/problem/2583) | DFS, BFS | Silver II |
 | 4 | [계단 오르기](https://www.acmicpc.net/problem/2579) | DP | Silver III |
-
+</details>
 
 ## week13 (3.20)
 | No | Title    | Tag| Level |
