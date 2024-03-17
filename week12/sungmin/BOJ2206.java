@@ -1,4 +1,5 @@
 package week12.sungmin;
+// 108996KB	732ms
 
 import java.io.*;
 import java.util.*;
@@ -37,7 +38,6 @@ public class BOJ2206 {
             System.out.println(-1);
         }
     }
-    //길로 갔는데 이미 부순상태로 길로 갈 경우 부수지 않은 상태에서 길로 갈 경우
     //길인경우
         //아직 벽을 부순적 없다 -> visited[N][M][0] = true 로 방문처리 + Queue 에 offer
         //이미 벽을 부순 경우   -> visited[N][M][1] = true 로 방문처리 + Queue 에 offer
