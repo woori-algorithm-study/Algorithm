@@ -1,39 +1,23 @@
-/*
-2 2
-0 1
-1 0
-
------------
-0 2 
-1 0 
-
-0 2 
-2 0 
-
-왜 bfs가 대각선까지 탐색 안하고 종료?
-*/
-package codingTest.src;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main{
+public class BJ4963 {
+    // 15776KB	168ms
     private static int w;
     private static int h;
-     static int[][] map;
-    private static int[] dx = {0, 0, -1, 1, -1, 1, -1, 1}; //상하좌우
-    private static int[] dy = {-1, 1, 0, 0, -1, -1, 1, 1}; // 좌상 우상 좌하 우하
+    private static int[][] map;
+    private static final int[] dx = {0, 0, -1, 1, -1, 1, -1, 1}; // 상하좌우 및 대각선 방향
+    private static final int[] dy = {-1, 1, 0, 0, -1, -1, 1, 1}; // 상하좌우 및 대각선 방향
 
     public static void main(String[] args) throws IOException {
-
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
 
         String line;
-        while(!(line = bf.readLine()).equals("0 0")){
-            st =  new StringTokenizer(line);
+        while (!(line = bf.readLine()).equals("0 0")) {
+            st = new StringTokenizer(line);
             w = Integer.parseInt(st.nextToken());
             h = Integer.parseInt(st.nextToken());
 
@@ -48,16 +32,9 @@ public class Main{
             int cnt = 0;
             for (int i = 0; i < h; i++) {
                 for (int j = 0; j < w; j++) {
-                    if(map[i][j] == 1){
+                    if (map[i][j] == 1) {
                         bfs(i, j);
                         cnt++;
-                        System.out.println();
-                        for (int k = 0; k < h; k++) {
-                            for (int l = 0; l < w; l++) {
-                                System.out.print(map[k][l] + " ");
-                            }
-                            System.out.println();
-                        }
                     }
                 }
             }
@@ -65,26 +42,22 @@ public class Main{
         }
     }
 
-    private static void bfs(int y, int x) {
+    private static void bfs(int x, int y) {
         Deque<Integer> q = new ArrayDeque<>();
-        map[y][x]++;
-        q.addLast(y);
+        map[x][y] = 0; // 방문한 곳 표시
         q.addLast(x);
-        while(!q.isEmpty()){
+        q.addLast(y);
+        while (!q.isEmpty()) {
             int cx = q.pollFirst();
             int cy = q.pollFirst();
-            for(int i = 0; i<8; i++){
-                int nx = cx+dx[i];
-                int ny = cy+dy[i];
-                if(ny<0 || nx<0 || ny>=h || nx >=w){continue;}
-                if(map[ny][nx] == 1){
-                    System.out.println("ny = " + ny);
-                    System.out.println("nx = " + nx);
-                    map[ny][nx]++;
-                    q.addLast(ny);
+            for (int i = 0; i < 8; i++) { // 상하좌우 및 대각선 방향으로 이동
+                int nx = cx + dx[i];
+                int ny = cy + dy[i];
+                // 배열 범위를 벗어나거나, 땅이 아니라면 스킵
+                if (nx < 0 || nx >= h || ny < 0 || ny >= w || map[nx][ny] != 1) continue;
+                    map[nx][ny] = 0; // 방문한 곳 표시
                     q.addLast(nx);
-
-                }
+                    q.addLast(ny);
             }
         }
     }
