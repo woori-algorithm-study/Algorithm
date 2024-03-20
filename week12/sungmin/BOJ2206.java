@@ -74,8 +74,8 @@ public class BOJ2206 {
                         if (!visited[nx][ny][z]) { //벽은 부순적 있든 없든 이동하고 방문처리
                             visited[nx][ny][z] = true;
                             q.offerLast(new Node(nx, ny, z, dist+1));
-                        } 
-    
+                        }
+                        
                     } else { //벽인경우
                         if (z == 0) {
                             if (!visited[nx][ny][z]) { //아직 벽을 부순적 없을 때만 돌아야 함
@@ -96,7 +96,6 @@ public class BOJ2206 {
         int y;
         int z;
         int dist;
-
 
         public Node (int x, int y, int z, int dist) {
             this.x = x;

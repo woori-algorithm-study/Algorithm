@@ -9,9 +9,7 @@
 | [안성민](https://github.com/zzzdks760) | [김태혁](https://github.com/rlaxoqkf)  | [임성실](https://github.com/limfruit)  | [홍혜진](https://github.com/HyeJin0102) | [박선주](https://github.com/mimimya)
 
 ## [지금 풀고 있는 문제집 : 백준 -[너비우선탐색]](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
-## [지금 풀고 있는 문제집 : 백준 -[DP]](https://www.acmicpc.net/workbook/view/7836)
-[https://www.acmicpc.net/workbook/view/7836](https://www.google.com/search?q=%EC%A2%8B%EC%9D%80+dp&sourceid=chrome&ie=UTF-8#:~:text=%EB%AC%B8%EC%A0%9C%EC%A7%91%3A%20%EC%A2%8B%EC%9D%80%20DP%EB%AC%B8%EC%A0%9C%EB%93%A4%20(khanjhy))
-
+## [지금 풀고 있는 문제집 : 백준 -[DP]](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x10.md)
 ## 1️⃣스터디 목적
 ```
 기업 코딩테스트 대비
@@ -179,3 +177,10 @@
 | 1 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | DFS, BFS | Gold III |
 | 2 | [계단 오르기](https://www.acmicpc.net/problem/2579) | DP | Silver III |
 | 3 | [불!](https://www.acmicpc.net/problem/4179)| DFS, BFS | Gold IV |
+
+## week14 (3.27)
+| No | Title    | Tag| Level |
+| :---:   | :---: | :---: | :---: |
+| 1 | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | DP | Silver III |
+| 2 | [계단 오르기](https://www.acmicpc.net/problem/2579) | DP | Silver III |
+| 3 | [RGB거리](https://www.acmicpc.net/problem/1149) | DP | Silver I |
