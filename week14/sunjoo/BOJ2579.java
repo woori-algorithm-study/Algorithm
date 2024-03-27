@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BOJ4179 {
+public class BOJ2579 {
     //14200KB	120ms
     private static int stairCount;
     private static int[] stairs, dp1, dp2;
